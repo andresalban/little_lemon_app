@@ -5,10 +5,15 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
+  
+  
   /*  font-family: "Markazi Text", serif; */
  
 }
 
+li{
+  list-style: none;
+}
 a{
   text-decoration: none;
 }

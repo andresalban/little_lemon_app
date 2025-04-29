@@ -1,0 +1,33 @@
+.footer {
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.info img{
+    margin-top: 12px;
+    padding: 0;
+    width: 200px;
+  }
+  
+.info p{
+    width: 320px;
+}
+
+h3{
+    font-size:18px ;
+}
+
+.importantLinks{
+width: 320px;
+}
+.contact{
+    width: 320px;
+}
+.socialMedia{
+    width: 320px;
+}
+
+

@@ -1,5 +1,6 @@
-import logo from "./Logo.svg";
+import logo from "../../assets/Logo.svg";
 import styles from "./Header.module.css";
+import Nav from "../Nav/Nav";
 
 function Header() {
   return (
@@ -8,19 +9,7 @@ function Header() {
         <img src={logo} alt="Logo little Lemon" />
       </section>
 
-      <nav className={styles.navbar}>
-        <a href="/home">Home</a>
-
-        <a href="/about">About</a>
-
-        <a href="/menu">Menu</a>
-
-        <a href="/reservation">Reservation</a>
-
-        <a href="/rderOnline">Order online</a>
-
-        <a href="/login">Login</a>
-      </nav>
+      <Nav/>
     </header>
   );
 }
